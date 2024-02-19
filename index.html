@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,600&display=swap');
+
+        .c {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .profilecard {
+            height: 400px;
+            width: 400px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 4%;
+        }
+
+        /* .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+        .dp {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 150px;
+            width: 150px;
+            border-radius: 100%;
+            background-color: white;
+        }
+
+        .upperbox {
+            height: 180px;
+            width: 100%;
+            background-color: blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4%;
+
+        }
+
+        .name {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-style: italic;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .subname {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .pic {
+
+            height: 145px;
+            width: 145px;
+            border-radius: 100%;
+
+        }
+        .socialMedia{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        }
+        .social{
+            height: 40px;
+            width: 40px;
+            border-radius: 100%;
+        }
+        .subs{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+            color: black;
+            height: 40px;
+            width: 150px;
+            background-color: blue;
+            border-radius: 20%;
+        }
+        .button ,.like {
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        }
+
+    </style>
+    <main>
+        <div class="c">
+
+            <div class="profilecard">
+                <div class="upperbox">
+                    <div class="dp">
+                        <div class="pic">
+                            <img src="img/pic.jpg" height="150px" class="pic" alt="myimage">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="name">Vaibhav Gupta</div>
+                <div class="subname">Programmer & Developer</div>
+                <div class="socialMedia">
+                    <!-- <div class="social"> -->
+                        <a href="instagram.com"> <img class="social" src="img/instagram.png" alt=""></a>
+                        <a href="instagram.com"> <img class="social" src="img/twitter.png" alt=""></a>
+                        <a href="instagram.com"> <img class="social" src="img/youtube.png" alt=""></a>
+                        <a href="instagram.com"> <img class="social" src="img/FB.jpg" alt=""></a>
+                        <!-- </div> -->
+                </div>
+                <div class="button">
+                    <a href="" class="subs">Subscribe</a>
+                    <!-- <div class="subs">Subscribe</div> -->
+                    <a href="" class="subs">Message</a>
+                    
+                
+                </div>
+            <div class="like">
+                <p>Like: &#128077; Message: &#128172; Share: &#128260; </p>
+            </div>  
+ 
+
+
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
